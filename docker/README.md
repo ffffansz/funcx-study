@@ -20,4 +20,4 @@ sudo docker run -d --rm --name=funcx [-v <path_to_store_notebooks>:/root/work/] 
 
 ## 访问
 
-Jupyter服务运行在0.0.0.0:8888，初始token为`123456`，内部以root用户运行，仅限于本地测试，切不可暴露在公网环境下。
+Jupyter服务运行在`0.0.0.0:8888`，初始token为`123456`，内部以root用户运行，仅限于本地测试，切不可暴露在公网环境下。
